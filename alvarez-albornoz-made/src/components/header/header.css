@@ -1,0 +1,36 @@
+.header_cont{
+    display: grid;
+    grid-template-rows: auto 1fr;
+    grid-template-areas: 
+        'top_menu'
+        'botto_menu';
+    }
+    .top_header{
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        grid-gap: 0.8rem;
+        background-color: rgb(182, 180, 180);
+    }
+    .botton_header{
+     display: grid;
+     align-items: center;
+     grid-template-columns: 50% 50%;
+     grid-template-areas: 
+     'logo_header menu_header';
+     background-color: rgb(32, 32, 116);
+    }
+    .menu_header{
+        display: flex;
+        flex-direction: row;
+        grid-gap: 1rem;
+    }
+    .logo_header{
+       margin-left: 5rem;
+    }
+    .button_top_header{
+        margin-left: 5rem;
+        background-color: wheat;
+        padding: 0.5rem;
+        border-radius: 2rem;
+    }

@@ -1,0 +1,26 @@
+.contgrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto auto;
+    grid-gap: 1.5rem;
+    grid-template-areas: 
+    'h h h h'
+    'm m m m'
+    'c c c c'
+    'f f f f';
+}
+.h{
+    grid-area: h;
+}
+.m{
+    grid-area: m;
+}
+.c{
+    grid-area: c;
+}
+.f{
+    grid-area: f;
+}
+.borde{
+    border: 1px solid black;
+}
